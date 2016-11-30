@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+</head>
+<body>
+	<h1>Sign Up</h1>
+	<fieldset>
+		<legend>
+			<span class="number"></span>Your basic info
+		</legend>
+		<form action="RegSorFpage" method="post">
+			<h3>First Name : <input type="text" name="first_name" /><br /> </h3>
+			<h3>Last Name : <input type="text" name="last_name" /><br /> </h3>
+			<h3>Email : <input type="email" name="email" /><br /> </h3>
+			<h3>Password : <input type="password" name="passwd" /><br /> </h3>
+			<h3>Gender :  	<input type="radio" name="gender" value="male"> M
+									<input type="radio" name="gender" value="female"> F <br /> </h3>
+			<h3>Age : <input type="number" name="age" min="18" max="65"><br /></h3>
+			<h3>Designation :	
+								<select name="desg">
+								<option selected disabled>Choose here</option>
+								  <option value="engineer">Engineer</option>
+								  <option value="manager">Manager</option>
+								  <option value="consultant">Consultant</option>
+								  <option value="director">Director</option>
+								</select> 
+								<br /></h3>
+			<h3>DOJ :  <input type="text" name="doj"/><br /></h3>
+			<h3>City :  <select name="city">
+									<option selected disabled>Choose here</option>
+								  <option value="hyd">HYD</option>
+								  <option value="blgr">BLGR</option>
+								  <option value="mum">MUM</option>
+								  <option value="pune">PUN</option>
+								</select> <br /> </h3>
+			<h3>Technology : <input type="checkbox" name="java" value="Bike"> JAVA
+  								<input type="checkbox" name="oracle" value="Car"> Oracle
+  								<input type="checkbox" name="C" value="Bike"> C
+  								<input type="checkbox" name="cpp" value="Car"> C++  <br /></h3>
+			<h3>Area :  
+							<select name="area">
+								<option selected disabled>Choose here</option>
+						          <option value="an">Anjahia Nagar</option>
+						          <option value="in">Indra Nagar</option>
+						          <option value="kd">Kondapur</option>
+						          <option value="ng">Nanakaramguda</option>
+			        		</select> 
+			        	<br /> </h3>
+        <input type="submit" value="Register">
+        <input type="reset">
+		</form>
+	</fieldset>
+</body>
+</html>
